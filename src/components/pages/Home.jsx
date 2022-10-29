@@ -1,12 +1,14 @@
-import React from 'react'
-import HeroSlider from '../hero-slider/HeroSlider'
+import React from "react";
+import HeroSlider from "../hero-slider/HeroSlider";
 
 const Home = () => {
+
   return (
     <div>
-      <HeroSlider/>
+      
+      <HeroSlider />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

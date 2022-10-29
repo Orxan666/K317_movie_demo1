@@ -4,11 +4,13 @@ import Footer from "./components/footer/Footer";
 import MyRoutes from "./components/layout/MyRoutes";
 
 function App() {
+
   return (
     <>
       <Header />
+    
       <MyRoutes />
-      <Footer />
+      <Footer/>
     </>
   );
 }
