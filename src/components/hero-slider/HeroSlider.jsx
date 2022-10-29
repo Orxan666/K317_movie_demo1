@@ -46,7 +46,7 @@ function HeroSlider() {
   );
 }
 
-const HeroSlideItem = ({ movie }) => {
+const HeroSlideItem = ({ movie,type }) => {
   const setMovieActive = async () => {
     const modal = document.querySelector(`#modal_${movie.id}`);
     const videoLink = `${apiConfig.baseUrl}movie/${movie.id}/videos?api_key=${apiConfig.apiKey}`;
